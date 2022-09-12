@@ -1,3 +1,7 @@
+/**
+ *
+ * todoList배열을 활용해서 완료한 리스트와 해야할 남은 리스트를 채워주세요!
+ */
 function TodoList() {
   const todoList = [
     {
@@ -31,15 +35,14 @@ function TodoList() {
       isChecked: true,
     },
   ];
-  const checkedList = todoList.filter((todoItem) => todoItem.isChecked);
-  const checkedItems = checkedList.map((checkedItem) => (
-    <li>{checkedItem.title}</li>
-  ));
 
   return (
     <section>
       <h1>후니의 완료한 리스트</h1>
-      <ul>{checkedItems}</ul>
+      <ul></ul>
+
+      <h1>후니의 해야할 남은 리스트</h1>
+      <ul></ul>
     </section>
   );
 }
