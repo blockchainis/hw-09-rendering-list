@@ -1,11 +1,8 @@
-import Nft from "./components/Nft";
+import TodoList from "./components/TodoList";
 function App() {
   return (
     <>
-      <header>
-        <h1>hello-block-chain-school</h1>
-      </header>
-      <Nft name="Cat"/>
+      <TodoList />
     </>
   );
 }
