@@ -10,3 +10,17 @@
 
 - GroupList.jsx 파일내에서 작성해주시면 됩니다.
 ![image](https://user-images.githubusercontent.com/114838716/194439860-d789a6b5-3d4b-414a-af7f-91ea98f2ee13.png)
+
+```bash
+# 과제 클론
+git clone https://github.com/blockchainis/hw-09-rendering-list.git
+
+# hw-09-rendering-list로 이동
+cd hw-09-rendering-list
+
+#해당 위치에서 VSCode실행
+code .
+
+#npm install로 의존성 설치
+npm install
+```
